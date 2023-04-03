@@ -1,0 +1,83 @@
+/*--------------------------------------------------------------
+# Project Stylesheet 
+--------------------------------------------------------------*/
+
+@use 'small';
+  
+
+@use 'medium';
+
+
+@use 'large';
+
+
+$fn-white-max: #FFFFFF;
+$fn_hover:  rgba(255, 255, 255, 0.4);
+
+$bc-black:#1F1F1D;
+$bc_hover: #BBBBB8;
+
+$pr-blue:#0087FE; 
+
+$font-family: 'Mulish', sans-serif;
+
+:root {
+    font-size: 62.5%;
+    font-family:$font-family;
+}
+
+body {
+   font-size: 1.6rem;
+   height: 100%;
+   margin-top: 0px;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+}
+
+header {
+    background-color: $bc-black;
+    color: $fn-white-max;
+ }
+
+ .nav__list--item:hover {
+    color: $fn_hover;
+ }
+
+ .nav__link {
+    text-decoration: none;
+    color:inherit;
+ }
+
+ .nav__btn--border {
+    text-decoration: none;
+    color:inherit;
+ }
+
+ .nav_button:hover {
+   color: $fn_hover;
+ }
+
+ footer {
+    background-color: $bc-black; 
+}
+  
+.footer__nav--item:hover {
+   color: $fn_hover;
+}
+
+.footer__logo--margin {
+   padding-top:6.4rem;
+   margin-bottom:15.99px;
+}
+
+//adjsting class
+
+.blue {
+   color: $pr-blue;
+   background-color: transparent;
+}
+
+.margin__top--16 {
+   padding-top: 16px;
+}
